@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+node_modules/.tmp/
+node_modules/.vite/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Design assets (local only, not part of codebase)
+design-*.png
+*.pdf
+Vue js.pdf
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,118 @@
+//day
+.fc {
+  height: 100%;
+}
+.fc-col-header {
+  background-color: #f5f6fa;
+  height: 45px !important;
+  border: 1px solid #eaf0f4;
+}
+.fc-col-header-cell {
+  height: 100% !important;
+  border: none !important;
+}
+.fc-scrollgrid-sync-inner {
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fc-col-header-cell-cushion {
+  color: #a3a6b4;
+  font-size: 11px;
+}
+.fc-daygrid .fc-daygrid-day {
+  height: 135px !important;
+}
+.fc-daygrid-day-frame {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  padding: 7px 0;
+  font-family: "Source Sans 3", sans-serif !important;
+  color: #43425d;
+}
+.fc-daygrid-day-top {
+  display: flex;
+  width: 100%;
+  a {
+    margin-right: 15px;
+    text-align: end;
+    width: 100%;
+  }
+}
+.fc-daygrid-event-harness {
+  width: 100%;
+}
+
+.fc-daygrid-event {
+  width: 100%;
+  padding: 7px 14px;
+  background-color: #3b86ff;
+  height: 30px;
+  color: white;
+  transition: 0.4s ease-in-out;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.fc-direction-ltr .fc-daygrid-event.fc-event-end {
+  margin: 1px 0;
+}
+.fc-daygrid-event:hover {
+  background-color: transparent;
+  border: 1px solid #3b86ff;
+  color: #3b86ff;
+  box-shadow: 0px 3px 6px #00000063;
+}
+
+.fc-daygrid-day-number {
+  padding: 0 !important;
+}
+.fc-day {
+  border-color: #eaf0f4 !important;
+}
+.fc-day-today {
+  background-color: #eaf0f4 !important;
+}
+
+.fc-daygrid-day-events {
+  top: 0;
+}
+.fc-daygrid-day-frame {
+  height: 49px !important;
+}
+//week
+.fc-timegrid-slot {
+  height: 50px !important;
+}
+.fc-timegrid {
+  height: 100% !important;
+}
+.fc-timegrid-axis {
+  border: none !important;
+}
+.fc-timegrid-axis-cushion {
+  width: 80px !important;
+  max-width: 80px !important;
+  font-size: 13px;
+  color: #4d4f5c;
+  font-family: "Source Sans 3", sans-serif !important;
+}
+.fc-timegrid-divider {
+  display: none;
+}
+.fc-scroller {
+  overflow: initial !important;
+}
+.fc-scrollgrid-section {
+  height: 0 !important;
+}
+.fc-timegrid-event {
+  .fc-v-event {
+    height: 23px;
+    padding: 0 !important;
+  }
+}
